@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import url("./fonts.css");
+@plugin "daisyui";
+@theme {
+  --font-vazir: "Vazirmatn", "sans";
+}
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
